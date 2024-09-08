@@ -15,6 +15,10 @@ CLI options when running the <code>pw-gen</code> binary are:
 
 # Binary File
 
+Binary file compiled on Ubuntu 24.04.1 LTS (Noble Numbat) - Linux 6.8.0-41-generic
+
+[pw-gen](https://github.com/sedexdev/pw-gen/blob/main/bin/)
+
 # License
 
 [M.I.T](https://github.com/sedexdev/pw-gen/edit/main/LICENSE)
