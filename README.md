@@ -17,4 +17,4 @@ CLI options when running the <code>pw-gen</code> binary are:
 
 # License
 
-(M.I.T)[https://github.com/sedexdev/pw-gen/edit/main/LICENSE]
+[M.I.T](https://github.com/sedexdev/pw-gen/edit/main/LICENSE)
