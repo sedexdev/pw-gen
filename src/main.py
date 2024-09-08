@@ -53,27 +53,6 @@ def get_args() -> argparse.Namespace:
     return args
 
 
-def get_char_count(char_set) -> int:
-    """
-    Returns the number of characters to
-    use for given set
-
-    Args:
-        set (str): name of set to use
-    Returns:
-        int: number of chars to use
-    """
-    num = None
-    type_correct = False
-    while not type_correct:
-        try:
-            num = int(input(f"Number of {char_set}: "))
-            type_correct = True
-        except ValueError:
-            print("Please enter an integer value")
-    return num
-
-
 def get_pw_chars(l, n, s) -> str:
     """
     Randomly select the chars for the
@@ -110,6 +89,8 @@ def get_pw_chars(l, n, s) -> str:
     # append s symbols
     for _ in range(s):
         chars += symbols[randint(0, len(symbols)-1)]
+
+    print(chars)
 
     return chars
 
