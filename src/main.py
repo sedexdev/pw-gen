@@ -90,8 +90,6 @@ def get_pw_chars(l, n, s) -> str:
     for _ in range(s):
         chars += symbols[randint(0, len(symbols)-1)]
 
-    print(chars)
-
     return chars
 
 
@@ -134,12 +132,9 @@ def main() -> None:
     else:
         chars = get_pw_chars(num_letters, num_numbers, num_symbols)
         password = gen_password(chars)
-        print("*" * len(password))
         print(password)
-        print("*" * len(password))
 
 
 if __name__ == "__main__":
     seed(os.urandom(16))
-    print("\t\n-- Python random Password Generator --\n")
     main()
